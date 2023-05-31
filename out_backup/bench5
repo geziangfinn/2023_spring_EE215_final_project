@@ -1,0 +1,259 @@
+../benchmarks -- bench5
+done
+routing net 1... 1734
+done
+routing net 2... 1604
+done
+routing net 3... 1370
+done
+routing net 4... 1406
+done
+routing net 5... 1472
+done
+routing net 6... 2138
+done
+routing net 7... 1707
+done
+routing net 8... 1419
+done
+routing net 9... 2936
+done
+routing net 10... 1087
+done
+routing net 11... 869
+done
+routing net 12... 3528
+done
+routing net 13... 3234
+done
+routing net 14... 5485
+done
+routing net 15... 3883
+done
+routing net 16... 4111
+done
+routing net 17... 2367
+done
+routing net 18... 3204
+done
+routing net 19... 1577
+done
+routing net 20... 1934
+done
+routing net 21... 1890
+done
+routing net 22... 738
+done
+routing net 23... 829
+done
+routing net 24... 2479
+done
+routing net 25... 2076
+done
+routing net 26... 4149
+done
+routing net 27... 5196
+done
+routing net 28... 4427
+done
+routing net 29... 3134
+done
+routing net 30... 2337
+done
+routing net 31... 1821
+done
+routing net 32... 3425
+done
+routing net 33... 617
+done
+routing net 34... 1458
+done
+routing net 35... 2327
+done
+routing net 36... 2766
+done
+routing net 37... 3688
+done
+routing net 38... 4722
+done
+routing net 39... 4863
+done
+routing net 40... 3315
+done
+routing net 41... 4658
+done
+routing net 42... 3936
+done
+routing net 43... 4695
+done
+routing net 44... 4538
+done
+routing net 45... 5191
+done
+routing net 46... 5169
+done
+routing net 47... 2794
+done
+routing net 48... 577
+done
+routing net 49... 2385
+done
+routing net 50... 5143
+done
+routing net 51... 3573
+done
+routing net 52... 5150
+done
+routing net 53... 3042
+done
+routing net 54... 4571
+done
+routing net 55... 5093
+done
+routing net 56... 3900
+done
+routing net 57... 2540
+done
+routing net 58... 2639
+done
+routing net 59... 2782
+done
+routing net 60... 2643
+done
+routing net 61... 2975
+done
+routing net 62... 8
+done
+routing net 63... 2571
+done
+routing net 64... 4065
+done
+routing net 65... 3530
+done
+routing net 66... 1087
+done
+routing net 67... 3972
+done
+routing net 68... 868
+done
+routing net 69... 918
+done
+routing net 70... 4104
+done
+routing net 71... 4376
+done
+routing net 72... 475
+done
+routing net 73... 3354
+done
+routing net 74... 1749
+done
+routing net 75... 920
+done
+routing net 76... ... No route done
+routing net 77... 3180
+done
+routing net 78... 2973
+done
+routing net 79... 3967
+done
+routing net 80... 4591
+done
+routing net 81... 664
+done
+routing net 82... 3327
+done
+routing net 83... 4342
+done
+routing net 84... 4248
+done
+routing net 85... 2654
+done
+routing net 86... 4003
+done
+routing net 87... 1111
+done
+routing net 88... 3169
+done
+routing net 89... 2222
+done
+routing net 90... 3554
+done
+routing net 91... 3839
+done
+routing net 92... 489
+done
+routing net 93... 4959
+done
+routing net 94... 3804
+done
+routing net 95... 2487
+done
+routing net 96... 3767
+done
+routing net 97... 3298
+done
+routing net 98... 3955
+done
+routing net 99... 4313
+done
+routing net 100... 911
+done
+routing net 101... 4730
+done
+routing net 102... 3445
+done
+routing net 103... 3821
+done
+routing net 104... 2632
+done
+routing net 105... 4104
+done
+routing net 106... 4026
+done
+routing net 107... 4289
+done
+routing net 108... 2943
+done
+routing net 109... 3083
+done
+routing net 110... 2062
+done
+routing net 111... 2424
+done
+routing net 112... 2252
+done
+routing net 113... 4180
+done
+routing net 114... 557
+done
+routing net 115... 1588
+done
+routing net 116... 4601
+done
+routing net 117... 4697
+done
+routing net 118... 2321
+done
+routing net 119... 3438
+done
+routing net 120... 3385
+done
+routing net 121... 13
+done
+routing net 122... 1776
+done
+routing net 123... 12
+done
+routing net 124... 1735
+done
+routing net 125... 776
+done
+routing net 126... 4315
+done
+routing net 127... 4232
+done
+routing net 128... 3725
+done
+Total cost: 15385
+Running time: 143.968s

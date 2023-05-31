@@ -361,7 +361,7 @@ bool next_coo(DIRECTION d, const COORDINATE &dims, const COORDINATE coo,
 
 void route_single_route(const COORDINATE &dims, const COSTS &grid,
                         const NETCOORDINATES &pcs, const PENALTY &penalty,
-                        PATH &path)
+                        PATH &path, long long &cost, bool lee)
 {
   // std::queue<COORDINATE> qq;
   // WAVEFRONT wf;
@@ -401,7 +401,7 @@ void route_single_route(const COORDINATE &dims, const COSTS &grid,
       break;
     }
 
-    //make_heap(WAVEFRONT.begin(), WAVEFRONT.end(), CompareWaveCell);
+    // make_heap(WAVEFRONT.begin(), WAVEFRONT.end(), CompareWaveCell);
     WAVE_CELL cellToBeExpand = WAVEFRONT.front();
     WAVEFRONT.erase(WAVEFRONT.begin());
 
@@ -413,6 +413,7 @@ void route_single_route(const COORDINATE &dims, const COSTS &grid,
     {
       reach = true; // no need for reach?
       cout << WAVEFRONT.size() << endl;
+      cost += cellToBeExpand.cost;
       break;
     }
 
@@ -472,8 +473,11 @@ void route_single_route(const COORDINATE &dims, const COSTS &grid,
           cellToBeAdd.cost = path_cost_new;
           PRED[cellToBeAdd.coord] = d;
           WAVEFRONT.emplace_back(cellToBeAdd);
-          push_heap(WAVEFRONT.begin(), WAVEFRONT.end(), CompareWaveCell);
-          inWavefront[coo_next.layer][coo_next.x][coo_next.y]=true;
+          if (!lee)
+          {
+            push_heap(WAVEFRONT.begin(), WAVEFRONT.end(), CompareWaveCell);
+          }
+          inWavefront[coo_next.layer][coo_next.x][coo_next.y] = true;
         }
         else
         {
@@ -485,14 +489,12 @@ void route_single_route(const COORDINATE &dims, const COSTS &grid,
             iter->pred = d;
             iter->cost = path_cost_new;
             PRED[iter->coord] = d;
-            make_heap(WAVEFRONT.begin(), WAVEFRONT.end(), CompareWaveCell);
+            if (!lee)
+            {
+              make_heap(WAVEFRONT.begin(), WAVEFRONT.end(), CompareWaveCell);
+            }
           }
         }
-
-        // else
-        //{
-        //  std::cout << coo_next << " blocked " << std::endl;
-        //}
       }
     }
   }
@@ -541,15 +543,31 @@ int main(int argc, char const *argv[])
   COSTS costs;
   PENALTY penalty;
 
+  bool lee = false;
+
   cout << argv[1] << " -- " << argv[2] << std::endl;
 
   read_specs(argv[1], argv[2], netlist, dims, costs, penalty);
 
   ROUTING routing;
   penalty.layer1_horizontal = 0;
-  penalty.layer1_vertical = penalty.bend;
-  penalty.layer2_horizontal = penalty.bend;
+  penalty.layer1_vertical = 0;
+  penalty.layer2_horizontal = 0;
   penalty.layer2_vertical = 0;
+
+  if (netlist.size() > 120) // bench5, fract2, primary1, industry1
+  {
+    penalty.layer1_vertical = penalty.bend;
+    penalty.layer2_horizontal = penalty.bend;
+  }
+
+  if (netlist.size() > 800)//primary1, industry1
+  {
+    lee = true;
+  }
+
+  long long totalcost = 0;
+  clock_t start_time = clock();
 
   for (NETCOORDINATES &pcs : netlist)
   {
@@ -559,7 +577,7 @@ int main(int argc, char const *argv[])
     unblock(costs, pcs.coo1);
     unblock(costs, pcs.coo2);
 
-    route_single_route(dims, costs, pcs, penalty, path);
+    route_single_route(dims, costs, pcs, penalty, path, totalcost, lee);
 
     for (COORDINATE coo : path)
     {
@@ -570,6 +588,11 @@ int main(int argc, char const *argv[])
 
     cout << "done" << std::endl;
   }
+
+  clock_t end_time = clock();
+
+  cout << "Total cost: " << totalcost << endl
+       << "Running time: " << (double)(end_time - start_time) / CLOCKS_PER_SEC << "s" << endl;
 
   string path_result =
       (std::string(argv[3]) + "/" + std::string(argv[2]) + ".route");

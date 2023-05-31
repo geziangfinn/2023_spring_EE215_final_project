@@ -1,0 +1,1939 @@
+../benchmarks -- industry1
+done
+routing net 1... 1046
+done
+routing net 2... 1376
+done
+routing net 3... 1154
+done
+routing net 4... 1124
+done
+routing net 5... 1297
+done
+routing net 6... 1690
+done
+routing net 7... 1684
+done
+routing net 8... 2535
+done
+routing net 9... 1476
+done
+routing net 10... 960
+done
+routing net 11... 1497
+done
+routing net 12... 964
+done
+routing net 13... 1501
+done
+routing net 14... 1472
+done
+routing net 15... 1709
+done
+routing net 16... 459
+done
+routing net 17... 1690
+done
+routing net 18... 2366
+done
+routing net 19... 1454
+done
+routing net 20... 1989
+done
+routing net 21... 333
+done
+routing net 22... 1408
+done
+routing net 23... 1311
+done
+routing net 24... 1416
+done
+routing net 25... 1223
+done
+routing net 26... 523
+done
+routing net 27... 1201
+done
+routing net 28... 1281
+done
+routing net 29... 1434
+done
+routing net 30... 1445
+done
+routing net 31... 761
+done
+routing net 32... 1199
+done
+routing net 33... 1574
+done
+routing net 34... 2068
+done
+routing net 35... 1790
+done
+routing net 36... 2758
+done
+routing net 37... 2427
+done
+routing net 38... 1582
+done
+routing net 39... 2027
+done
+routing net 40... 1945
+done
+routing net 41... 119
+done
+routing net 42... 609
+done
+routing net 43... 1263
+done
+routing net 44... 1449
+done
+routing net 45... 1449
+done
+routing net 46... 1450
+done
+routing net 47... 1012
+done
+routing net 48... ... No route done
+routing net 49... ... No route done
+routing net 50... 837
+done
+routing net 51... 1033
+done
+routing net 52... 1268
+done
+routing net 53... 1350
+done
+routing net 54... 986
+done
+routing net 55... 1252
+done
+routing net 56... 997
+done
+routing net 57... 1232
+done
+routing net 58... 636
+done
+routing net 59... 1768
+done
+routing net 60... 2076
+done
+routing net 61... 1313
+done
+routing net 62... 611
+done
+routing net 63... 2900
+done
+routing net 64... 1414
+done
+routing net 65... 1234
+done
+routing net 66... 1402
+done
+routing net 67... 2011
+done
+routing net 68... 2428
+done
+routing net 69... 1279
+done
+routing net 70... 1341
+done
+routing net 71... 1399
+done
+routing net 72... 1604
+done
+routing net 73... 1610
+done
+routing net 74... 1707
+done
+routing net 75... 2370
+done
+routing net 76... 1199
+done
+routing net 77... 1091
+done
+routing net 78... 1837
+done
+routing net 79... 874
+done
+routing net 80... 953
+done
+routing net 81... 1326
+done
+routing net 82... 1114
+done
+routing net 83... 2067
+done
+routing net 84... 1785
+done
+routing net 85... 1156
+done
+routing net 86... 2354
+done
+routing net 87... ... No route done
+routing net 88... 1001
+done
+routing net 89... 647
+done
+routing net 90... 918
+done
+routing net 91... 1056
+done
+routing net 92... 2165
+done
+routing net 93... 1209
+done
+routing net 94... 2132
+done
+routing net 95... 633
+done
+routing net 96... 1136
+done
+routing net 97... 1200
+done
+routing net 98... 1391
+done
+routing net 99... 1276
+done
+routing net 100... 1430
+done
+routing net 101... 1156
+done
+routing net 102... 490
+done
+routing net 103... 729
+done
+routing net 104... 1233
+done
+routing net 105... 1474
+done
+routing net 106... 1745
+done
+routing net 107... 941
+done
+routing net 108... 373
+done
+routing net 109... 365
+done
+routing net 110... 732
+done
+routing net 111... 684
+done
+routing net 112... 1083
+done
+routing net 113... 661
+done
+routing net 114... 1017
+done
+routing net 115... 1437
+done
+routing net 116... 2350
+done
+routing net 117... 2463
+done
+routing net 118... 1900
+done
+routing net 119... 969
+done
+routing net 120... 1605
+done
+routing net 121... 1394
+done
+routing net 122... 851
+done
+routing net 123... 1468
+done
+routing net 124... 1316
+done
+routing net 125... 710
+done
+routing net 126... 1489
+done
+routing net 127... 1238
+done
+routing net 128... 2033
+done
+routing net 129... 1100
+done
+routing net 130... 141
+done
+routing net 131... ... No route done
+routing net 132... 1411
+done
+routing net 133... 1397
+done
+routing net 134... 1407
+done
+routing net 135... 1390
+done
+routing net 136... 1060
+done
+routing net 137... ... No route done
+routing net 138... 1435
+done
+routing net 139... 500
+done
+routing net 140... 508
+done
+routing net 141... 1690
+done
+routing net 142... 1420
+done
+routing net 143... 208
+done
+routing net 144... 678
+done
+routing net 145... 1724
+done
+routing net 146... 1131
+done
+routing net 147... 2155
+done
+routing net 148... 1251
+done
+routing net 149... 497
+done
+routing net 150... 1714
+done
+routing net 151... 1141
+done
+routing net 152... 1103
+done
+routing net 153... 2572
+done
+routing net 154... 1053
+done
+routing net 155... 1496
+done
+routing net 156... 1412
+done
+routing net 157... 804
+done
+routing net 158... 2163
+done
+routing net 159... 1336
+done
+routing net 160... 1913
+done
+routing net 161... 1647
+done
+routing net 162... 1584
+done
+routing net 163... 1402
+done
+routing net 164... 580
+done
+routing net 165... 1390
+done
+routing net 166... 1042
+done
+routing net 167... 474
+done
+routing net 168... 1829
+done
+routing net 169... 557
+done
+routing net 170... 486
+done
+routing net 171... 241
+done
+routing net 172... 1219
+done
+routing net 173... 739
+done
+routing net 174... 1936
+done
+routing net 175... 1293
+done
+routing net 176... 593
+done
+routing net 177... 1573
+done
+routing net 178... 726
+done
+routing net 179... 1408
+done
+routing net 180... ... No route done
+routing net 181... ... No route done
+routing net 182... 1396
+done
+routing net 183... 867
+done
+routing net 184... 1147
+done
+routing net 185... 1556
+done
+routing net 186... 1607
+done
+routing net 187... 854
+done
+routing net 188... 1115
+done
+routing net 189... 1573
+done
+routing net 190... 1016
+done
+routing net 191... 1060
+done
+routing net 192... 1349
+done
+routing net 193... 1367
+done
+routing net 194... 2169
+done
+routing net 195... 1366
+done
+routing net 196... 2262
+done
+routing net 197... 1890
+done
+routing net 198... 1494
+done
+routing net 199... 933
+done
+routing net 200... 808
+done
+routing net 201... 1095
+done
+routing net 202... 693
+done
+routing net 203... 1558
+done
+routing net 204... 1788
+done
+routing net 205... 1048
+done
+routing net 206... 943
+done
+routing net 207... 895
+done
+routing net 208... 856
+done
+routing net 209... 1458
+done
+routing net 210... 1370
+done
+routing net 211... 2331
+done
+routing net 212... 451
+done
+routing net 213... 470
+done
+routing net 214... 1554
+done
+routing net 215... 792
+done
+routing net 216... 1436
+done
+routing net 217... 1558
+done
+routing net 218... 1368
+done
+routing net 219... 1107
+done
+routing net 220... 478
+done
+routing net 221... 2102
+done
+routing net 222... 1054
+done
+routing net 223... 1123
+done
+routing net 224... 1543
+done
+routing net 225... 438
+done
+routing net 226... 472
+done
+routing net 227... 1375
+done
+routing net 228... 1557
+done
+routing net 229... 1799
+done
+routing net 230... 923
+done
+routing net 231... 1404
+done
+routing net 232... 1394
+done
+routing net 233... 1109
+done
+routing net 234... 948
+done
+routing net 235... 1301
+done
+routing net 236... 1663
+done
+routing net 237... 1821
+done
+routing net 238... 407
+done
+routing net 239... 1158
+done
+routing net 240... ... No route done
+routing net 241... 1371
+done
+routing net 242... 860
+done
+routing net 243... 1496
+done
+routing net 244... 1137
+done
+routing net 245... 1230
+done
+routing net 246... 1218
+done
+routing net 247... 127
+done
+routing net 248... 1288
+done
+routing net 249... 1205
+done
+routing net 250... ... No route done
+routing net 251... 1133
+done
+routing net 252... ... No route done
+routing net 253... 1691
+done
+routing net 254... 1256
+done
+routing net 255... 1503
+done
+routing net 256... 2221
+done
+routing net 257... 1473
+done
+routing net 258... 1623
+done
+routing net 259... 994
+done
+routing net 260... 1433
+done
+routing net 261... 1442
+done
+routing net 262... 1317
+done
+routing net 263... 900
+done
+routing net 264... 1490
+done
+routing net 265... 1812
+done
+routing net 266... 1777
+done
+routing net 267... 422
+done
+routing net 268... 969
+done
+routing net 269... 443
+done
+routing net 270... 1911
+done
+routing net 271... 698
+done
+routing net 272... 1601
+done
+routing net 273... 1138
+done
+routing net 274... 1039
+done
+routing net 275... 714
+done
+routing net 276... 980
+done
+routing net 277... 266
+done
+routing net 278... 515
+done
+routing net 279... 1236
+done
+routing net 280... 524
+done
+routing net 281... 1342
+done
+routing net 282... 1662
+done
+routing net 283... 1235
+done
+routing net 284... 738
+done
+routing net 285... ... No route done
+routing net 286... 2343
+done
+routing net 287... 2117
+done
+routing net 288... 1871
+done
+routing net 289... 625
+done
+routing net 290... 1337
+done
+routing net 291... 1655
+done
+routing net 292... ... No route done
+routing net 293... 1640
+done
+routing net 294... 1150
+done
+routing net 295... 758
+done
+routing net 296... 2349
+done
+routing net 297... 400
+done
+routing net 298... 1451
+done
+routing net 299... 720
+done
+routing net 300... 1308
+done
+routing net 301... 1237
+done
+routing net 302... 1207
+done
+routing net 303... 499
+done
+routing net 304... 1300
+done
+routing net 305... 1373
+done
+routing net 306... 1794
+done
+routing net 307... 1384
+done
+routing net 308... 1513
+done
+routing net 309... 1363
+done
+routing net 310... 1540
+done
+routing net 311... 1532
+done
+routing net 312... 1897
+done
+routing net 313... 1167
+done
+routing net 314... 2450
+done
+routing net 315... 616
+done
+routing net 316... 1129
+done
+routing net 317... 1527
+done
+routing net 318... 1023
+done
+routing net 319... 1207
+done
+routing net 320... 826
+done
+routing net 321... 1549
+done
+routing net 322... 1718
+done
+routing net 323... 894
+done
+routing net 324... 3046
+done
+routing net 325... 1775
+done
+routing net 326... 2941
+done
+routing net 327... 934
+done
+routing net 328... 546
+done
+routing net 329... 1576
+done
+routing net 330... 694
+done
+routing net 331... 1164
+done
+routing net 332... 1865
+done
+routing net 333... 1985
+done
+routing net 334... 1755
+done
+routing net 335... 2018
+done
+routing net 336... 1256
+done
+routing net 337... 741
+done
+routing net 338... 1307
+done
+routing net 339... 1236
+done
+routing net 340... 1405
+done
+routing net 341... 633
+done
+routing net 342... 3126
+done
+routing net 343... 3105
+done
+routing net 344... 314
+done
+routing net 345... 1522
+done
+routing net 346... 1492
+done
+routing net 347... 1382
+done
+routing net 348... 1415
+done
+routing net 349... 1521
+done
+routing net 350... 1615
+done
+routing net 351... 1320
+done
+routing net 352... 435
+done
+routing net 353... 920
+done
+routing net 354... 943
+done
+routing net 355... 2388
+done
+routing net 356... 1693
+done
+routing net 357... 1301
+done
+routing net 358... 2118
+done
+routing net 359... 2116
+done
+routing net 360... 1313
+done
+routing net 361... 942
+done
+routing net 362... 1624
+done
+routing net 363... 1340
+done
+routing net 364... 1233
+done
+routing net 365... 642
+done
+routing net 366... 414
+done
+routing net 367... 817
+done
+routing net 368... 745
+done
+routing net 369... 1477
+done
+routing net 370... 1333
+done
+routing net 371... 455
+done
+routing net 372... 638
+done
+routing net 373... 859
+done
+routing net 374... 1154
+done
+routing net 375... 1342
+done
+routing net 376... 957
+done
+routing net 377... 1022
+done
+routing net 378... 734
+done
+routing net 379... 1270
+done
+routing net 380... 1383
+done
+routing net 381... 1138
+done
+routing net 382... 1308
+done
+routing net 383... 394
+done
+routing net 384... 1022
+done
+routing net 385... 2500
+done
+routing net 386... 725
+done
+routing net 387... 641
+done
+routing net 388... 1517
+done
+routing net 389... 1410
+done
+routing net 390... 343
+done
+routing net 391... 1702
+done
+routing net 392... 1272
+done
+routing net 393... 1273
+done
+routing net 394... 1642
+done
+routing net 395... 301
+done
+routing net 396... 1368
+done
+routing net 397... 1626
+done
+routing net 398... 1163
+done
+routing net 399... 644
+done
+routing net 400... 1293
+done
+routing net 401... 602
+done
+routing net 402... 1092
+done
+routing net 403... 1741
+done
+routing net 404... 1307
+done
+routing net 405... 1204
+done
+routing net 406... 2498
+done
+routing net 407... 343
+done
+routing net 408... 1388
+done
+routing net 409... 1036
+done
+routing net 410... 1267
+done
+routing net 411... 1414
+done
+routing net 412... 1391
+done
+routing net 413... 1256
+done
+routing net 414... 633
+done
+routing net 415... 843
+done
+routing net 416... 1293
+done
+routing net 417... 1121
+done
+routing net 418... 730
+done
+routing net 419... 739
+done
+routing net 420... 370
+done
+routing net 421... 419
+done
+routing net 422... 431
+done
+routing net 423... 1867
+done
+routing net 424... 1061
+done
+routing net 425... 451
+done
+routing net 426... 1196
+done
+routing net 427... 679
+done
+routing net 428... ... No route done
+routing net 429... 420
+done
+routing net 430... 780
+done
+routing net 431... 1707
+done
+routing net 432... 1788
+done
+routing net 433... ... No route done
+routing net 434... 1164
+done
+routing net 435... 1470
+done
+routing net 436... 1032
+done
+routing net 437... 1101
+done
+routing net 438... ... No route done
+routing net 439... 1654
+done
+routing net 440... 76
+done
+routing net 441... 900
+done
+routing net 442... 1349
+done
+routing net 443... 1129
+done
+routing net 444... 1527
+done
+routing net 445... 1407
+done
+routing net 446... 1638
+done
+routing net 447... 1365
+done
+routing net 448... ... No route done
+routing net 449... 1106
+done
+routing net 450... 1281
+done
+routing net 451... 837
+done
+routing net 452... 1438
+done
+routing net 453... 543
+done
+routing net 454... 1350
+done
+routing net 455... 1197
+done
+routing net 456... 1185
+done
+routing net 457... ... No route done
+routing net 458... 1090
+done
+routing net 459... 517
+done
+routing net 460... 1018
+done
+routing net 461... 1010
+done
+routing net 462... 997
+done
+routing net 463... 1344
+done
+routing net 464... 1714
+done
+routing net 465... 1879
+done
+routing net 466... 1120
+done
+routing net 467... 594
+done
+routing net 468... 1293
+done
+routing net 469... 797
+done
+routing net 470... 1041
+done
+routing net 471... 542
+done
+routing net 472... 999
+done
+routing net 473... 1278
+done
+routing net 474... 1058
+done
+routing net 475... 1196
+done
+routing net 476... ... No route done
+routing net 477... 2271
+done
+routing net 478... 605
+done
+routing net 479... 1275
+done
+routing net 480... 255
+done
+routing net 481... 1300
+done
+routing net 482... 1500
+done
+routing net 483... 782
+done
+routing net 484... 774
+done
+routing net 485... ... No route done
+routing net 486... 1119
+done
+routing net 487... 1012
+done
+routing net 488... 757
+done
+routing net 489... 769
+done
+routing net 490... 749
+done
+routing net 491... 1532
+done
+routing net 492... 764
+done
+routing net 493... 1856
+done
+routing net 494... 732
+done
+routing net 495... ... No route done
+routing net 496... ... No route done
+routing net 497... ... No route done
+routing net 498... 1948
+done
+routing net 499... 1852
+done
+routing net 500... 1050
+done
+routing net 501... 1286
+done
+routing net 502... 1354
+done
+routing net 503... 1085
+done
+routing net 504... 746
+done
+routing net 505... 1556
+done
+routing net 506... 1850
+done
+routing net 507... 995
+done
+routing net 508... 972
+done
+routing net 509... 1267
+done
+routing net 510... 1397
+done
+routing net 511... 434
+done
+routing net 512... 1567
+done
+routing net 513... 1414
+done
+routing net 514... 1491
+done
+routing net 515... 1671
+done
+routing net 516... 1272
+done
+routing net 517... 1197
+done
+routing net 518... 297
+done
+routing net 519... 841
+done
+routing net 520... 238
+done
+routing net 521... 270
+done
+routing net 522... 260
+done
+routing net 523... 1431
+done
+routing net 524... 1073
+done
+routing net 525... 971
+done
+routing net 526... 1264
+done
+routing net 527... 1450
+done
+routing net 528... 1255
+done
+routing net 529... 1318
+done
+routing net 530... 1297
+done
+routing net 531... 731
+done
+routing net 532... 871
+done
+routing net 533... 332
+done
+routing net 534... 1505
+done
+routing net 535... 1057
+done
+routing net 536... 895
+done
+routing net 537... 1090
+done
+routing net 538... 972
+done
+routing net 539... 717
+done
+routing net 540... 1165
+done
+routing net 541... 1080
+done
+routing net 542... 1502
+done
+routing net 543... 1537
+done
+routing net 544... 1424
+done
+routing net 545... 617
+done
+routing net 546... 569
+done
+routing net 547... 2042
+done
+routing net 548... 425
+done
+routing net 549... 686
+done
+routing net 550... 1290
+done
+routing net 551... 359
+done
+routing net 552... 324
+done
+routing net 553... 772
+done
+routing net 554... 1493
+done
+routing net 555... 1648
+done
+routing net 556... 1597
+done
+routing net 557... 1198
+done
+routing net 558... 693
+done
+routing net 559... 934
+done
+routing net 560... 1533
+done
+routing net 561... 1238
+done
+routing net 562... 1587
+done
+routing net 563... 1089
+done
+routing net 564... ... No route done
+routing net 565... 1402
+done
+routing net 566... 604
+done
+routing net 567... 208
+done
+routing net 568... 1006
+done
+routing net 569... 534
+done
+routing net 570... 1155
+done
+routing net 571... 1005
+done
+routing net 572... 1080
+done
+routing net 573... 1131
+done
+routing net 574... 1660
+done
+routing net 575... 1874
+done
+routing net 576... 263
+done
+routing net 577... 1364
+done
+routing net 578... 663
+done
+routing net 579... 954
+done
+routing net 580... 1442
+done
+routing net 581... 1257
+done
+routing net 582... 1225
+done
+routing net 583... 1010
+done
+routing net 584... 1506
+done
+routing net 585... 390
+done
+routing net 586... 1516
+done
+routing net 587... 2297
+done
+routing net 588... 2012
+done
+routing net 589... 1169
+done
+routing net 590... 727
+done
+routing net 591... 2157
+done
+routing net 592... 2689
+done
+routing net 593... 114
+done
+routing net 594... 1662
+done
+routing net 595... 747
+done
+routing net 596... 936
+done
+routing net 597... 1305
+done
+routing net 598... 1183
+done
+routing net 599... 1220
+done
+routing net 600... 1117
+done
+routing net 601... 1018
+done
+routing net 602... ... No route done
+routing net 603... 1492
+done
+routing net 604... 2095
+done
+routing net 605... 1247
+done
+routing net 606... 360
+done
+routing net 607... 1280
+done
+routing net 608... 481
+done
+routing net 609... 486
+done
+routing net 610... 413
+done
+routing net 611... 1152
+done
+routing net 612... 1215
+done
+routing net 613... 1326
+done
+routing net 614... 361
+done
+routing net 615... 485
+done
+routing net 616... 720
+done
+routing net 617... 1136
+done
+routing net 618... 496
+done
+routing net 619... 1163
+done
+routing net 620... 1357
+done
+routing net 621... 900
+done
+routing net 622... 580
+done
+routing net 623... 798
+done
+routing net 624... 1135
+done
+routing net 625... 678
+done
+routing net 626... 228
+done
+routing net 627... 1024
+done
+routing net 628... ... No route done
+routing net 629... ... No route done
+routing net 630... ... No route done
+routing net 631... ... No route done
+routing net 632... 1407
+done
+routing net 633... 1575
+done
+routing net 634... 1394
+done
+routing net 635... 1472
+done
+routing net 636... 1408
+done
+routing net 637... 1154
+done
+routing net 638... 1003
+done
+routing net 639... 1485
+done
+routing net 640... 613
+done
+routing net 641... ... No route done
+routing net 642... 1233
+done
+routing net 643... 549
+done
+routing net 644... 1071
+done
+routing net 645... ... No route done
+routing net 646... 840
+done
+routing net 647... 568
+done
+routing net 648... 1116
+done
+routing net 649... 902
+done
+routing net 650... 1547
+done
+routing net 651... 718
+done
+routing net 652... 1113
+done
+routing net 653... ... No route done
+routing net 654... 1451
+done
+routing net 655... ... No route done
+routing net 656... 841
+done
+routing net 657... 1251
+done
+routing net 658... 982
+done
+routing net 659... 2620
+done
+routing net 660... 1059
+done
+routing net 661... 405
+done
+routing net 662... 91
+done
+routing net 663... 1140
+done
+routing net 664... 1154
+done
+routing net 665... 1158
+done
+routing net 666... 1080
+done
+routing net 667... 1811
+done
+routing net 668... 1288
+done
+routing net 669... 1143
+done
+routing net 670... 1330
+done
+routing net 671... 306
+done
+routing net 672... 1063
+done
+routing net 673... 875
+done
+routing net 674... 784
+done
+routing net 675... 870
+done
+routing net 676... 1488
+done
+routing net 677... 1139
+done
+routing net 678... 600
+done
+routing net 679... 999
+done
+routing net 680... 362
+done
+routing net 681... 1405
+done
+routing net 682... 1135
+done
+routing net 683... 1191
+done
+routing net 684... 1647
+done
+routing net 685... 1073
+done
+routing net 686... 411
+done
+routing net 687... 1461
+done
+routing net 688... 1390
+done
+routing net 689... 1344
+done
+routing net 690... 502
+done
+routing net 691... 145
+done
+routing net 692... 1118
+done
+routing net 693... ... No route done
+routing net 694... ... No route done
+routing net 695... ... No route done
+routing net 696... ... No route done
+routing net 697... 569
+done
+routing net 698... 733
+done
+routing net 699... 441
+done
+routing net 700... 1265
+done
+routing net 701... 816
+done
+routing net 702... 873
+done
+routing net 703... 1066
+done
+routing net 704... 2136
+done
+routing net 705... 385
+done
+routing net 706... 392
+done
+routing net 707... 423
+done
+routing net 708... 536
+done
+routing net 709... 460
+done
+routing net 710... 1460
+done
+routing net 711... ... No route done
+routing net 712... ... No route done
+routing net 713... ... No route done
+routing net 714... 688
+done
+routing net 715... ... No route done
+routing net 716... 1267
+done
+routing net 717... 206
+done
+routing net 718... ... No route done
+routing net 719... 707
+done
+routing net 720... 829
+done
+routing net 721... ... No route done
+routing net 722... 966
+done
+routing net 723... 1190
+done
+routing net 724... 364
+done
+routing net 725... 1889
+done
+routing net 726... ... No route done
+routing net 727... 1218
+done
+routing net 728... 969
+done
+routing net 729... 1599
+done
+routing net 730... 686
+done
+routing net 731... ... No route done
+routing net 732... ... No route done
+routing net 733... 888
+done
+routing net 734... 1247
+done
+routing net 735... 402
+done
+routing net 736... 457
+done
+routing net 737... ... No route done
+routing net 738... ... No route done
+routing net 739... 752
+done
+routing net 740... 606
+done
+routing net 741... 391
+done
+routing net 742... 413
+done
+routing net 743... 930
+done
+routing net 744... ... No route done
+routing net 745... 649
+done
+routing net 746... 1257
+done
+routing net 747... 503
+done
+routing net 748... 778
+done
+routing net 749... 176
+done
+routing net 750... 893
+done
+routing net 751... 694
+done
+routing net 752... ... No route done
+routing net 753... 328
+done
+routing net 754... ... No route done
+routing net 755... 384
+done
+routing net 756... 1122
+done
+routing net 757... ... No route done
+routing net 758... 880
+done
+routing net 759... 920
+done
+routing net 760... 260
+done
+routing net 761... 885
+done
+routing net 762... 882
+done
+routing net 763... 1085
+done
+routing net 764... 1081
+done
+routing net 765... 712
+done
+routing net 766... 610
+done
+routing net 767... 1346
+done
+routing net 768... 332
+done
+routing net 769... 1031
+done
+routing net 770... 1243
+done
+routing net 771... 329
+done
+routing net 772... 1063
+done
+routing net 773... 721
+done
+routing net 774... 1554
+done
+routing net 775... 1557
+done
+routing net 776... 1118
+done
+routing net 777... 697
+done
+routing net 778... 1030
+done
+routing net 779... 1265
+done
+routing net 780... 1317
+done
+routing net 781... 1470
+done
+routing net 782... 1210
+done
+routing net 783... 821
+done
+routing net 784... 866
+done
+routing net 785... 547
+done
+routing net 786... 1216
+done
+routing net 787... 368
+done
+routing net 788... 434
+done
+routing net 789... 234
+done
+routing net 790... ... No route done
+routing net 791... 1116
+done
+routing net 792... 1035
+done
+routing net 793... ... No route done
+routing net 794... 694
+done
+routing net 795... 735
+done
+routing net 796... 1262
+done
+routing net 797... 1105
+done
+routing net 798... 1303
+done
+routing net 799... 880
+done
+routing net 800... 1293
+done
+routing net 801... 330
+done
+routing net 802... 1254
+done
+routing net 803... 1405
+done
+routing net 804... 213
+done
+routing net 805... 1406
+done
+routing net 806... 686
+done
+routing net 807... 706
+done
+routing net 808... 1727
+done
+routing net 809... 1787
+done
+routing net 810... 1164
+done
+routing net 811... 777
+done
+routing net 812... 1290
+done
+routing net 813... 827
+done
+routing net 814... 1430
+done
+routing net 815... 1418
+done
+routing net 816... 1069
+done
+routing net 817... 765
+done
+routing net 818... 485
+done
+routing net 819... 285
+done
+routing net 820... 1047
+done
+routing net 821... 397
+done
+routing net 822... 737
+done
+routing net 823... 1602
+done
+routing net 824... 1113
+done
+routing net 825... ... No route done
+routing net 826... 507
+done
+routing net 827... 917
+done
+routing net 828... 588
+done
+routing net 829... 1063
+done
+routing net 830... 631
+done
+routing net 831... 857
+done
+routing net 832... 1311
+done
+routing net 833... 1018
+done
+routing net 834... ... No route done
+routing net 835... 880
+done
+routing net 836... 886
+done
+routing net 837... 1125
+done
+routing net 838... 325
+done
+routing net 839... 1203
+done
+routing net 840... 1076
+done
+routing net 841... 922
+done
+routing net 842... 1738
+done
+routing net 843... 647
+done
+routing net 844... 573
+done
+routing net 845... 1117
+done
+routing net 846... ... No route done
+routing net 847... 993
+done
+routing net 848... 282
+done
+routing net 849... 676
+done
+routing net 850... 1278
+done
+routing net 851... 1062
+done
+routing net 852... 894
+done
+routing net 853... 938
+done
+routing net 854... 1005
+done
+routing net 855... 1279
+done
+routing net 856... ... No route done
+routing net 857... 1146
+done
+routing net 858... 1044
+done
+routing net 859... ... No route done
+routing net 860... ... No route done
+routing net 861... 936
+done
+routing net 862... ... No route done
+routing net 863... 1253
+done
+routing net 864... 1567
+done
+routing net 865... 322
+done
+routing net 866... 1209
+done
+routing net 867... 800
+done
+routing net 868... ... No route done
+routing net 869... 627
+done
+routing net 870... 1255
+done
+routing net 871... 851
+done
+routing net 872... 1237
+done
+routing net 873... 1336
+done
+routing net 874... 1174
+done
+routing net 875... 1108
+done
+routing net 876... 607
+done
+routing net 877... 1157
+done
+routing net 878... 1610
+done
+routing net 879... 809
+done
+routing net 880... 1026
+done
+routing net 881... 237
+done
+routing net 882... 631
+done
+routing net 883... 228
+done
+routing net 884... 176
+done
+routing net 885... 951
+done
+routing net 886... 492
+done
+routing net 887... 1367
+done
+routing net 888... 1848
+done
+routing net 889... 1756
+done
+routing net 890... 1595
+done
+routing net 891... 476
+done
+routing net 892... 1370
+done
+routing net 893... 1639
+done
+routing net 894... 1723
+done
+routing net 895... 953
+done
+routing net 896... ... No route done
+routing net 897... 1378
+done
+routing net 898... 962
+done
+routing net 899... 1359
+done
+routing net 900... 284
+done
+routing net 901... 1483
+done
+routing net 902... 1366
+done
+routing net 903... 321
+done
+routing net 904... 1354
+done
+routing net 905... 1350
+done
+routing net 906... 465
+done
+routing net 907... ... No route done
+routing net 908... 1180
+done
+routing net 909... 971
+done
+routing net 910... 146
+done
+routing net 911... 394
+done
+routing net 912... 956
+done
+routing net 913... 658
+done
+routing net 914... 1251
+done
+routing net 915... 1278
+done
+routing net 916... 1488
+done
+routing net 917... 1054
+done
+routing net 918... 1025
+done
+routing net 919... 107
+done
+routing net 920... 706
+done
+routing net 921... 982
+done
+routing net 922... 1225
+done
+routing net 923... 1272
+done
+routing net 924... 258
+done
+routing net 925... 586
+done
+routing net 926... 780
+done
+routing net 927... 993
+done
+routing net 928... 1537
+done
+routing net 929... 1122
+done
+routing net 930... 595
+done
+routing net 931... 308
+done
+routing net 932... 379
+done
+routing net 933... 234
+done
+routing net 934... 1000
+done
+routing net 935... 1053
+done
+routing net 936... 961
+done
+routing net 937... 344
+done
+routing net 938... ... No route done
+routing net 939... 1122
+done
+routing net 940... 921
+done
+routing net 941... 701
+done
+routing net 942... 701
+done
+routing net 943... 688
+done
+routing net 944... 767
+done
+routing net 945... 427
+done
+routing net 946... 606
+done
+routing net 947... 808
+done
+routing net 948... 754
+done
+routing net 949... 815
+done
+routing net 950... 597
+done
+routing net 951... 996
+done
+routing net 952... 789
+done
+routing net 953... 1215
+done
+routing net 954... 317
+done
+routing net 955... 387
+done
+routing net 956... 837
+done
+routing net 957... 573
+done
+routing net 958... 694
+done
+routing net 959... ... No route done
+routing net 960... 748
+done
+routing net 961... 553
+done
+routing net 962... 445
+done
+routing net 963... 224
+done
+routing net 964... 1355
+done
+routing net 965... 283
+done
+routing net 966... 1019
+done
+routing net 967... 179
+done
+routing net 968... 850
+done
+routing net 969... 352
+done
+routing net 970... 763
+done
+routing net 971... 941
+done
+routing net 972... 931
+done
+routing net 973... 919
+done
+routing net 974... 940
+done
+routing net 975... 711
+done
+routing net 976... 960
+done
+routing net 977... 1031
+done
+routing net 978... 1224
+done
+routing net 979... 724
+done
+routing net 980... 1159
+done
+routing net 981... 148
+done
+routing net 982... 1188
+done
+routing net 983... 476
+done
+routing net 984... 707
+done
+routing net 985... 1127
+done
+routing net 986... 876
+done
+routing net 987... 498
+done
+routing net 988... 423
+done
+routing net 989... 374
+done
+routing net 990... 1304
+done
+routing net 991... 774
+done
+routing net 992... 457
+done
+routing net 993... 376
+done
+routing net 994... 901
+done
+routing net 995... 905
+done
+routing net 996... 868
+done
+routing net 997... 1018
+done
+routing net 998... 844
+done
+routing net 999... 688
+done
+routing net 1000... 713
+done
+Total cost: 520433
+Running time: 2367.77s

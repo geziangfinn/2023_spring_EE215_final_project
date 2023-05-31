@@ -1,0 +1,44 @@
+../benchmarks -- bench2
+done
+routing net 1... 79
+done
+routing net 2... 108
+done
+routing net 3... 107
+done
+routing net 4... 101
+done
+routing net 5... 89
+done
+routing net 6... 281
+done
+routing net 7... 325
+done
+routing net 8... 275
+done
+routing net 9... 241
+done
+routing net 10... 178
+done
+routing net 11... 87
+done
+routing net 12... 108
+done
+routing net 13... 108
+done
+routing net 14... 173
+done
+routing net 15... 189
+done
+routing net 16... 187
+done
+routing net 17... 136
+done
+routing net 18... 107
+done
+routing net 19... 74
+done
+routing net 20... 48
+done
+Total cost: 1760
+Running time: 0.08978s
