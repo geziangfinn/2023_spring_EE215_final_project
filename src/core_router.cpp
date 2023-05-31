@@ -7,6 +7,8 @@
 #include <queue>
 #include <set>
 #include <vector>
+#include <unordered_map>
+
 #include "omp.h"
 
 #include "assert.h"
@@ -67,7 +69,7 @@ enum DIRECTION
 };
 vector<DIRECTION> allowed_expansion = {N, S, E, W, U, D};
 
-//set<DIRECTION> allowed_expansion(v.begin(), v.end());
+// set<DIRECTION> allowed_expansion(v.begin(), v.end());
 
 bool is_bend(DIRECTION d1, DIRECTION d2)
 {
@@ -101,12 +103,12 @@ struct WAVE_CELL
     cost = COST_UNDEFINED;
     pred = UNDEFINED;
   }
-  bool operator<=(const WAVE_CELL &cell) const { return cost <= cell.cost; }
+  bool operator>(const WAVE_CELL &cell) const { return cost > cell.cost; }
 };
 
 bool CompareWaveCell(const WAVE_CELL &a, const WAVE_CELL &b)
 {
-  return !(a <= b); //? < or >?
+  return a > b; //? < or >?
 }
 
 // typedef std::map<COORDINATE, WAVE_CELL> WAVEFRONT;
@@ -119,14 +121,17 @@ typedef std::map<COORDINATE, int> COSTS;
 std::vector<WAVE_CELL>::iterator findWaveCellInWaveFront(COORDINATE coord, vector<WAVE_CELL> &WAVEFRONT)
 {
   std::vector<WAVE_CELL>::iterator iter = WAVEFRONT.begin();
-  for (; iter != WAVEFRONT.end(); iter++)
+  int size = WAVEFRONT.size();
+  int iternumber = size;
+
+  for (int i = 0; i < size; i++)
   {
-    if (iter->coord == coord)
+    if (WAVEFRONT[i].coord == coord)
     {
-      break;
+      iternumber = i;
     }
   }
-
+  iter = WAVEFRONT.begin() + iternumber;
   return iter;
 }
 
@@ -299,7 +304,7 @@ COORDINATE back_trace(DIRECTION d, const COORDINATE &coo)
   return coo_prev;
 }
 
-bool next_coo(DIRECTION d, const COORDINATE &dims, const COORDINATE &coo,
+bool next_coo(DIRECTION d, const COORDINATE &dims, const COORDINATE coo,
               COORDINATE &coo_next)
 {
   coo_next = coo;
@@ -360,9 +365,13 @@ void route_single_route(const COORDINATE &dims, const COSTS &grid,
 {
   // std::queue<COORDINATE> qq;
   // WAVEFRONT wf;
-  set<COORDINATE> EXPANDED;
+  // set<COORDINATE> EXPANDED;
 
   map<COORDINATE, DIRECTION> PRED;
+
+  vector<vector<vector<bool>>> EXPANDED(dims.layer, vector<vector<bool>>(dims.x, vector<bool>(dims.y, false)));
+
+  vector<vector<vector<bool>>> inWavefront(dims.layer, vector<vector<bool>>(dims.x, vector<bool>(dims.y, false)));
 
   COORDINATE const coo_start = pcs.coo1;
   COORDINATE const coo_end = pcs.coo2;
@@ -381,6 +390,8 @@ void route_single_route(const COORDINATE &dims, const COSTS &grid,
   vector<WAVE_CELL> WAVEFRONT; //! minheap of wavefront
   WAVEFRONT.emplace_back(wc);
 
+  inWavefront[wc.coord.layer][wc.coord.x][wc.coord.y] = true;
+
   bool reach = false;
 
   while (!reach)
@@ -390,19 +401,18 @@ void route_single_route(const COORDINATE &dims, const COSTS &grid,
       break;
     }
 
-    make_heap(WAVEFRONT.begin(), WAVEFRONT.end(), CompareWaveCell);
-
+    //make_heap(WAVEFRONT.begin(), WAVEFRONT.end(), CompareWaveCell);
     WAVE_CELL cellToBeExpand = WAVEFRONT.front();
+    WAVEFRONT.erase(WAVEFRONT.begin());
 
-    pop_heap(WAVEFRONT.begin(), WAVEFRONT.end(), CompareWaveCell);
+    inWavefront[cellToBeExpand.coord.layer][cellToBeExpand.coord.x][cellToBeExpand.coord.y] = false;
 
-    WAVEFRONT.pop_back();
-    
-    EXPANDED.insert(cellToBeExpand.coord);
-    // cout<<"pop "<<cellToBeExpand.coord<<endl;
+    EXPANDED[cellToBeExpand.coord.layer][cellToBeExpand.coord.x][cellToBeExpand.coord.y] = true;
+
     if (cellToBeExpand.coord == coo_end)
     {
       reach = true; // no need for reach?
+      cout << WAVEFRONT.size() << endl;
       break;
     }
 
@@ -412,68 +422,77 @@ void route_single_route(const COORDINATE &dims, const COSTS &grid,
       if (next_coo(d, dims, cellToBeExpand.coord, coo_next))
       {
         assert(is_valid(dims, coo_next));
-        if (EXPANDED.find(coo_next) == EXPANDED.end()) //! UNEXPANDED NEIGHBOR
+        if (EXPANDED[coo_next.layer][coo_next.x][coo_next.y]) //! UNEXPANDED NEIGHBOR
         {
-          if (!is_blocked(grid, coo_next))
+          continue;
+        }
+        if (is_blocked(grid, coo_next))
+        {
+          continue;
+        }
+        size_t cost_to_move;
+
+        cost_to_move = get_cost(grid, coo_next);
+
+        if (is_bend(cellToBeExpand.pred, d))
+          cost_to_move += penalty.bend;
+        if (is_via(d))
+          cost_to_move += penalty.via;
+
+        if (d == N || d == S)
+        {
+          if (coo_next.layer == 0)
           {
-
-            size_t cost_to_move;
-
-            cost_to_move = get_cost(grid, coo_next);
-
-            if (is_bend(cellToBeExpand.pred, d))
-              cost_to_move += penalty.bend;
-            if (is_via(d))
-              cost_to_move += penalty.via;
-
-            if (d == N || d == S)
-            {
-              if (coo_next.layer == 0)
-              {
-                cost_to_move += penalty.layer1_vertical;
-              }
-              else if (coo_next.layer == 1)
-              {
-                cost_to_move += penalty.layer2_vertical;
-              }
-            }
-            if (d == E || d == W)
-            {
-              if (coo_next.layer == 0)
-              {
-                cost_to_move += penalty.layer1_horizontal;
-              }
-              else if (coo_next.layer == 1)
-              {
-                cost_to_move += penalty.layer2_horizontal;
-              }
-            }
-
-            size_t path_cost_new = cellToBeExpand.cost + cost_to_move;
-
-            std::vector<WAVE_CELL>::iterator iter = findWaveCellInWaveFront(coo_next, WAVEFRONT);
-
-            if (iter == WAVEFRONT.end())
-            {
-              WAVE_CELL cellToBeAdd;
-              cellToBeAdd.coord = coo_next;
-              cellToBeAdd.pred = d;
-              cellToBeAdd.cost = path_cost_new;
-              PRED[cellToBeAdd.coord] = d;
-              WAVEFRONT.emplace_back(cellToBeAdd);
-            }
-            else if (iter->cost > path_cost_new)
-            {
-              iter->pred = d;
-              iter->cost = path_cost_new;
-              PRED[iter->coord] = d;
-            }
+            cost_to_move += penalty.layer1_vertical;
           }
-          else
+          else if (coo_next.layer == 1)
           {
-            // std::cout << coo_next << " blocked " << std::endl;
+            cost_to_move += penalty.layer2_vertical;
           }
         }
+        if (d == E || d == W)
+        {
+          if (coo_next.layer == 0)
+          {
+            cost_to_move += penalty.layer1_horizontal;
+          }
+          else if (coo_next.layer == 1)
+          {
+            cost_to_move += penalty.layer2_horizontal;
+          }
+        }
+
+        size_t path_cost_new = cellToBeExpand.cost + cost_to_move;
+
+        if (!inWavefront[coo_next.layer][coo_next.x][coo_next.y])
+        {
+          WAVE_CELL cellToBeAdd;
+          cellToBeAdd.coord = coo_next;
+          cellToBeAdd.pred = d;
+          cellToBeAdd.cost = path_cost_new;
+          PRED[cellToBeAdd.coord] = d;
+          WAVEFRONT.emplace_back(cellToBeAdd);
+          push_heap(WAVEFRONT.begin(), WAVEFRONT.end(), CompareWaveCell);
+          inWavefront[coo_next.layer][coo_next.x][coo_next.y]=true;
+        }
+        else
+        {
+          vector<WAVE_CELL>::iterator iter = findWaveCellInWaveFront(coo_next, WAVEFRONT);
+
+          assert(iter != WAVEFRONT.end());
+          if (iter->cost > path_cost_new)
+          {
+            iter->pred = d;
+            iter->cost = path_cost_new;
+            PRED[iter->coord] = d;
+            make_heap(WAVEFRONT.begin(), WAVEFRONT.end(), CompareWaveCell);
+          }
+        }
+
+        // else
+        //{
+        //  std::cout << coo_next << " blocked " << std::endl;
+        //}
       }
     }
   }
@@ -481,7 +500,7 @@ void route_single_route(const COORDINATE &dims, const COSTS &grid,
   assert(path.empty());
   COORDINATE coo = coo_end;
 
-  if (EXPANDED.find(coo_end) == EXPANDED.end())
+  if (!EXPANDED[coo_end.layer][coo_end.x][coo_end.y])
   {
     cout << "... No route ";
     return;
@@ -527,13 +546,12 @@ int main(int argc, char const *argv[])
   read_specs(argv[1], argv[2], netlist, dims, costs, penalty);
 
   ROUTING routing;
-  penalty.layer1_horizontal=0;
-  penalty.layer1_vertical=penalty.bend;
-  penalty.layer2_horizontal=penalty.bend;
-  penalty.layer2_vertical=0;
+  penalty.layer1_horizontal = 0;
+  penalty.layer1_vertical = penalty.bend;
+  penalty.layer2_horizontal = penalty.bend;
+  penalty.layer2_vertical = 0;
 
-
-  for (NETCOORDINATES pcs : netlist)
+  for (NETCOORDINATES &pcs : netlist)
   {
     cout << "routing net " << pcs.netid << "... ";
     PATH path;
